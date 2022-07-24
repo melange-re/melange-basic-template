@@ -14,7 +14,7 @@ build: [
 ]
 depends: [
   "ocaml" {>= "4.02.3"}
-  "dune"
+  "dune" {>= "2.0"}
   "cppo" {build}
   "alcotest" {with-test & >= "0.8.5"}
   "odoc" {with-doc}
@@ -29,10 +29,10 @@ ydump is a pretty-printing command-line program provided with the
 yojson package."""
 url {
   src:
-    "https://github.com/ocaml-community/yojson/releases/download/2.0.0/yojson-2.0.0.tbz"
+    "https://github.com/ocaml-community/yojson/releases/download/2.0.1/yojson-2.0.1.tbz"
   checksum: [
-    "sha256=ab5d863f7f951a8f7fb4a708399ca2da2cf139a5e0af7818145c20295420cb1a"
-    "sha512=3ea982dbeef7ec8da54d29124ddb8b86f90583eb96ed3947851cedec9e3d2d47b981e3465d41f2c94943e6865ba6a9a51c6f0252efa6df2386d398b679aae8f2"
+    "sha256=8bc8bc722a4a94656a58394f17f9f8a406267343ab87d77202db930584a0c836"
+    "sha512=93ebabd3247f1b5826827472229188c5ac1b4d2395eb8121a22b35acd773eedd290e6b8de1f067020fc868da7c05a60408091eebc0b305a67408d558a3a94c10"
   ]
 }
-x-commit-hash: "9c5cee131ae0ec79713e62397076d597486844ed"
+x-commit-hash: "b67669eaa82d56663dc042246787d18789457cfc"
